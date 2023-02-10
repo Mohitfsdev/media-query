@@ -1,0 +1,81 @@
+body{
+    background-color: #ff0000;
+}
+.box{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    display: none;
+
+}
+p{
+    font-size: 25px;
+    font-weight: 400;
+}
+@media screen and (min-width:1441px){
+    body{
+        background-color: #81ffd5;
+    }
+    .box1{
+        display: block;
+
+    }
+    .box1::after{
+        content: "This is a Media Query Demo page.";
+
+    }
+    
+    
+}
+@media screen and ( min-width:1025px) and (max-width:1440px){
+    body{
+        background-color: #218c24;
+    }
+    .box2{
+        display: block;
+
+    }
+    .box2::before{
+        content: "This is a Media Query Demo page.";
+
+    }
+}
+@media screen and ( min-width:769px) and (max-width:1024px){
+    body{
+        background-color: #b28731;
+    }
+    .box3{
+        display: block;
+
+    }
+    .box3::before{
+        content: "This is a Media Query Demo page.";
+
+    }
+}
+@media screen and ( min-width:426px) and (max-width:768px){
+    body{
+        background-color: #74fbfe;
+    }
+    .box4{
+        display: block;
+
+    }
+    .box4::before{
+        content: "This is a Media Query Demo page.";
+
+    }
+}
+@media screen and  (max-width:425px){
+    body{
+        background-color: #cc3245;
+    }
+    .box5{
+        display: block;
+
+    }
+    .box5::before{
+        content: "This is a Media Query Demo page.";
+
+    }
+}
